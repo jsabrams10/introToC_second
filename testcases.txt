@@ -1,0 +1,148 @@
+Asst0
+John Abrams
+2/17/2019
+CS 214 - Systems Programming
+
+
+----------------------------------------
+Test Cases
+----------------------------------------
+
+
+Test Case 0 - Too Few Arguments:
+
+./pointersorter
+Must enter one argument.
+
+--------------------
+
+Test Case 1 - Too Many Arguments:
+
+./pointersorter PLUCK THE DAY
+Must enter one argument.
+
+--------------------
+
+Test Case 2 - Blank String:
+
+./pointersorter ""
+
+
+--------------------
+
+Test Case 3 - Double Quotes:
+
+./pointersorter " A a Z z"
+Z
+A
+z
+a
+
+--------------------
+
+Test Case 4 - Single Quotes:
+
+./pointersorter 'Z z A a '
+Z
+A
+z
+a
+
+--------------------
+
+Test Case 5 - No Quotes:
+
+./pointersorter A.Z.a.z.
+Z
+A
+z
+a
+
+--------------------
+
+Test Case 6 - Non-Alpha:
+
+./pointersorter ,./<>?
+
+
+--------------------
+
+Test Case 7 - Non-Alphas at Start/End:
+
+./pointersorter _the_Babylonian_numbers_
+Babylonian
+the
+numbers
+
+--------------------
+
+Test Case 8 - Alphas at Start/End:
+
+./pointersorter "aand, aAnd, Aand, AAnd"
+AAnd
+Aand
+aAnd
+aand
+
+--------------------
+
+Test Case 9 - Large Input:
+
+./pointersorter "Tu ne quaestoris - scire nefas! - quem mihi, quem tibi finem di dederint, Leuconoe, nec Babylonios temptaris numeros. Ut melius, quidquid erit, pati, seu pluris hiemes seu tribuit Iuppiter ultimam, quae nunc oppositis debilitat pumicibus mare Tyrrheneum. Sapias, vina liques, et spatio brevi spem longam reseces; dum loquimur, fugerit invida aetas: CARPE DIEM quam minimum credula postero."
+
+Ut
+Tyrrheneum
+Tu
+Sapias
+Leuconoe
+Iuppiter
+DIEM
+CARPE
+Babylonios
+vina
+ultimam
+tribuit
+tibi
+temptaris
+spem
+spatio
+seu
+seu
+scire
+reseces
+quidquid
+quem
+quem
+quam
+quaestoris
+quae
+pumicibus
+postero
+pluris
+pati
+oppositis
+nunc
+numeros
+nefas
+nec
+ne
+minimum
+mihi
+melius
+mare
+loquimur
+longam
+liques
+invida
+hiemes
+fugerit
+finem
+et
+erit
+dum
+di
+dederint
+debilitat
+credula
+brevi
+aetas
